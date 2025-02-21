@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 
 const AboutmeText = () => {
   return (
@@ -12,9 +13,11 @@ const AboutmeText = () => {
         interactive and responsive web applications. Previously, I interned at
         Internshala, refining my <br></br>technical and problem-solving skills.
       </p>
-      <button className="border border-orange-2 rounded-full py-2 px-4 text-lg flex items-center mt-10 hover:bg-orange-2 transition-all hover:scale-[120%] duration-100 cursor-pointer md:self-start sm:self-center text-white hover:text-cyan">
-        My Projects
-      </button>
+      <Link to="projects" smooth={true} spy={true} duration={500} offset={-130}>
+        <button className="border border-orange-2 rounded-full py-2 px-4 text-lg flex items-center mt-10 hover:bg-orange-2 transition-all hover:scale-[120%] duration-100 cursor-pointer md:self-start sm:self-center text-white hover:text-cyan">
+          My Projects
+        </button>
+      </Link>
     </div>
   );
 };
