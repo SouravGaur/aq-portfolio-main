@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutmeImg = () => {
   return (
-    <div className="h-[500px] width-[300px] relative">
+    <div className="h-[450px] width-[250px] relative">
       <div className="h-[500px] w-[300px]  rounded-[100px] absolute overflow-hidden">
         <img
           src="/images/about-me.jpg"

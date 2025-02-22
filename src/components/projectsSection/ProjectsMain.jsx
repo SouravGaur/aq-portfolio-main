@@ -18,7 +18,7 @@ const ProjectsMain = () => {
       year: "August 2024",
       align: "left",
       image: "/images/ss.png",
-      link: "https://virtual-ai-woad.vercel.app",
+      link: "https://password-generator-puce-beta.vercel.app",
     },
     {
       name: "Pika run Game",
